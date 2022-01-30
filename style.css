@@ -115,7 +115,70 @@ footer{
 
 /*------------------------------------*/
 
-   
+
+/*precautions.html*/ 
+/*------------------------------------*/
+
+.precautions h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.precautions span{
+    color: red;
+    text-align: center;
+}
+
+.precautions .column{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.precautions .column .box-container{
+    margin:1.5rem;
+    flex:1 1 50rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.precautions .column .box-container .title{
+    padding:25px;
+    text-align: center;
+    font-size: 35px;
+    background:var(--blue);
+    color:peachpuff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.precautions .column .box-container:last-child .title{
+    background:#ff3300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.precautions .column .box-container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}
+
+.precautions .column .box-container .box img{
+    width:15rem;
+    padding:30px;
+}
+
+.precautions .column .box-container .box h3{
+    font-size: 30px;
+    color: rgb(233, 113, 113);
+}
+
+.precautions .column .box-container .box p{
+    font-size: 20px;
+}
 
 
 
