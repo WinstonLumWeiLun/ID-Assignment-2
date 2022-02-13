@@ -1,8 +1,7 @@
 
 |   # ID-Assignment2    |
 |-----------------------|
-|  --- TEAM PeaxCX ---   |
-+-----+-----+-----+-----+
+| --- TEAM PeaxCX ---   |
 
 --- WINSTON LUM WEI LUN & CHUA CHENG XUAN ---
 
