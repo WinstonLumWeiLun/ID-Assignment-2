@@ -27,7 +27,9 @@ _____________
 
  - Typing Animation - In a typing back and forth animated manner, shows the individuals / people of the text "Protect yourself against Covid-19." 
 
+ - Highlighted Contents - Certain contents from the website will be highlighted with a distinct color when individuals / people hover over/point-click on them.
 
+ - Expanded Contents - A expand/scale-up animation will appear when users/recruiters hover over/point-click on specified contents from the website. 
 
 
 
@@ -35,3 +37,12 @@ _____________
 ---Testing---
 _____________
 
+i. It can access to Contact Page. 
+
+ii. Try to submit the empty form and verify that an error message about the required fields appears (There is no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
+
+iii. Try to submit the form with an invalid email address and verify that a relevant error message appears (There is no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
+
+iv. Try to submit the form with all inputs valid and verify that a success message appears. (working)
+
+Screen-Size: Currently still working on it.
