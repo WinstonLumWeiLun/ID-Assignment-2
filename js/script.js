@@ -1,3 +1,12 @@
+   // Typing Animation
+   let type = new Typed(".type1", {
+    strings: ["Protect youself from COVID-19"],
+    typeSpeed: 70,
+    backSpeed: 50,
+    loop: true
+    
+});
+
 //[STEP 0]: Make sure our document is A-OK
 $(document).ready(function () {
     //what kind of interface we want at the start 
