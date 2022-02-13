@@ -2,6 +2,7 @@
 |   # ID-Assignment2    |
 |-----------------------|
 | --- TEAM PeaxCX ---   |
+|-----------------------|
 | --- Class T05 ---   |
 
 --- WINSTON LUM WEI LUN & CHUA CHENG XUAN ---
