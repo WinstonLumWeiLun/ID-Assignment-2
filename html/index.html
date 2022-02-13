@@ -2,57 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid-19</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=PT+Sans+Narrow&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+
+    <!-------------------------------- CSS Stylesheets Reference -------------------------------->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-------------------------------- Tools -------------------------------->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <title>Home</title>
 </head>
 <body>
 
-    <!---- header section ---->
-    
- <div class="header" id="header-section">
-  <nav>
-   <h2 class="main-title">COVID-19</h2>
-   <ul>
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="symtoms.html">Symtoms</a></li>
-    <li><a href="precautions.html">Precautions</a></li>
-    <li><a href="contact.html">Contact</a></li>
-   </ul>
-  </nav>
-
-  
-
-  <br>
-  <hr>
-  <br>
-  
-  <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="680px" class="iframe-class"></iframe>
-  
-  <hr>
-  
-    <!---- footer section ---->
-
-    <footer>
-        <p> WOULD YOU LIKE TO KNOW AND LEARN MORE?  <br> BY CLICKING ON THE LINK BELOW.</p>
-  
-        <div class="social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <!-------------------------------- Navigation Bar -------------------------------->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">COVID <span>- 19</span></a></div>
+            <ul class= "menu">
+                <li><a href="../html/index.html" class="menu-btn">Home</a></li>
+                <li><a href="../html/about.html" class="menu-btn">About</a></li>
+                <li><a href="../html/symptoms.html" class="menu-btn">Symptoms</a></li>
+                <li><a href="../html/precautions.html" class="menu-btn">Precautions</a></li>
+                <li><a href="../html/prevent.html" class="menu-btn">Prevent</a></li>
+                <li><a href="../html/contact.html" class="menu-btn">Contact</a></li>
+                <li><a href="../html/quiz.html" class="menu-btn">Quiz</a></li>
+            </ul>
+            <!-------------------------------- Menu Button -------------------------------->
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-        <p class="end"> © COPYRIGHT BY TEAM PeaxCX</p>
-    </footer>
+    </nav>
 
-<script src="script.js"></script>
+     <!-------------------------------- Home Section -------------------------------->
+    
+     <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Stay Home, Stay Safe</div>
+                <div class="text-2"><span class="type1"></span></div>
+                <a href="../html/about.html">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    <!-------------------------------- Footer Section -------------------------------->
+    <footer>
+        <span>Copyright: Team PeaxCH. All Rights Reserved.</span>
+    </footer>
+    
+    <script src="../js/script.js"></script>
 </body>
 </html>
+
+
+
+
