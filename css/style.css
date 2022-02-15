@@ -15,6 +15,10 @@
     margin: auto;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 
 /*-------------------------------- Navigation Style -------------------------------- */
@@ -26,6 +30,11 @@
     font-family: 'Ubuntu', sans-serif;
     z-index: 999;
     transition: all 0.6s ease;
+}
+
+.navbar.sticky{
+    padding: 25px 0;
+    background: rgb(199, 197, 216);
 }
 
 .navbar .max-width{
@@ -46,6 +55,15 @@
     transition: all 0.6s ease-in-out;
 }
 
+.navbar.sticky .logo a span{
+    color: slateblue; 
+}
+
+.navbar.sticky .logo a span:hover{
+    color: wheat;
+    transition: color 0.5s ease;
+}
+
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -64,6 +82,15 @@
     color: black;
 }
 
+
+.navbar.sticky .menu li a{
+    color: slateblue
+}
+
+.navbar.sticky .menu li a:hover{
+    transition: color 0.5s ease;
+    color: black;
+}
 
 
 /*-------------------------------- Menu Button -------------------------------- */
@@ -92,7 +119,7 @@
 x
 /*-------------------------------- All "sections" and font styles -------------------------------- */
 
-.about, footer{
+.about, footer, .precautions{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -127,7 +154,7 @@ section .title::after{
     bottom: -14px;
     left: 50%;
     font-size: 20px;
-    color: rgb(155, 4, 34);
+    color: red;
     padding: 5px;
     background: rgb(255, 255, 255);
     transform: translateX(-50%)
@@ -193,10 +220,11 @@ section .title::after{
 }
 
 .about .about-content .left img{
-    height: 400px;
+    height: 300px;
     width: 400px;
     object-fit: cover;
     border-radius: 15px;
+    margin-left: 150px;
 }
 
 .about .about-content .right{
@@ -211,7 +239,7 @@ section .title::after{
 }
 
 .about .about-content .right .text span{
-    color: slateblue;
+    color: rgba(51, 139, 85, 0.993);
 }
 
 .about .about-content .right p{
