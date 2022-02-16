@@ -310,3 +310,4 @@ $(document).ready(function () {
       });
     }
   });
+});
