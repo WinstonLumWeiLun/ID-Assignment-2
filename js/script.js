@@ -1,4 +1,49 @@
-   // Typing Animation
+$(document).ready(function(){
+  $(window).scroll(function(){
+      if(this.scrollY > 100){
+          $('.navbar').addClass("sticky");
+      }else{
+          $('.navbar').removeClass("sticky");
+      }
+      if(this.scrollY > 750){
+          $('.scrollup-btn').addClass("work");
+      }else{
+          $('.scrollup-btn').removeClass("work");
+      }
+  });
+
+  
+  // Switching the Navigation Bar 
+  $('.menu-btn').click(function(){
+      $('.navbar .menu').toggleClass("active");
+      $('.menu-btn i').toggleClass("active");
+  });
+  
+
+  // Sliding Feature
+  $('.slide').owlCarousel({
+      margin: 20,
+      loop: true,
+      autoplayTimeOut: 2000,
+      autoplayHoverPause: true,
+      responsive: {
+          0:{
+              items: 1,
+              nav: false
+          },
+          600:{
+              items: 2,
+              nav: false
+          },
+          1000:{
+              items: 2,
+              nav: false
+          }
+      }
+  });
+
+
+// Typing Animation
    let type = new Typed(".type1", {
     strings: ["Protect youself from COVID-19"],
     typeSpeed: 70,
@@ -6,6 +51,8 @@
     loop: true
     
 });
+
+
 
 //[STEP 0]: Make sure our document is A-OK
 $(document).ready(function () {
