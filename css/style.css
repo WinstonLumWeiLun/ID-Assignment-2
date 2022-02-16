@@ -140,7 +140,7 @@ html{
 x
 /*-------------------------------- All "sections" and font styles -------------------------------- */
 
-.about, footer, .precautions{
+.about, .prevent, .precautions, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -283,15 +283,17 @@ section .title::after{
 }
 
 
-/*-------------------------------- Footer Section -------------------------------- */
-footer{
-    background: rgb(24, 112, 228);
-    padding: 21px 35px;
-    color: white;
-    font-size: 10px;
-}
 
-   
+/*symptoms.html*/ 
+/*------------------------------------*/
+
+
+
+
+
+
+
+
 
 
 /*precautions.html*/ 
@@ -363,8 +365,57 @@ footer{
 }
 
 
+/*-------------------------------- Prevent Section -------------------------------- */
 
+.prevent .title span{
+    color: rgb(238, 48, 95);
+}
 
+.prevent .box2 img{
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+.prevent .prevent-content .card2 .text{
+    color: red;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    padding-bottom: 25px;
+}
+
+.prevent .prevent-content .box2 p{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.prevent .prevent-content .box2:hover p{
+    color:black;
+    transition: color 0.5s ease;
+}
+
+.prevent .prevent-content .card2{
+    width: 60%;
+    text-align: center;
+    padding: 30px 45px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.prevent .prevent-content .card2 .box2{
+    transition: all 0.5s ease;
+    padding-bottom: 60px;
+}
+
+.prevent .prevent-content .card2:hover .box2{
+    transform: scale(1.05);
+}
 
 
 
@@ -385,6 +436,22 @@ footer{
 }
 
 /*------------------------------------*/
+
+
+
+
+/*-------------------------------- Footer Section -------------------------------- */
+footer{
+    background: rgb(24, 112, 228);
+    padding: 21px 35px;
+    color: white;
+    font-size: 10px;
+}
+
+   
+
+
+
 
 
 /*Lottie - Animation*/
