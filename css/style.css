@@ -262,11 +262,80 @@ section .title{
 
 
 
-/*symptoms.html*/ 
-/*------------------------------------*/
+
+/*-------------------------------- Symptoms Section -------------------------------- */
+
+.symptoms .title::after{
+    content: "Symptoms";
+    color: blue;
+}
+
+.symptoms .slide .card3{
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.symptoms .slide .card3:hover{
+    transition: all 0.5s ease;
+}
+
+.symptoms .slide .card3 .box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.symptoms .slide .card3:hover .box3{
+    transform: scale(1.03);
+}
 
 
+.symptoms .slide .card3 .text{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 
+
+.symptoms .slide .card3 img{
+    height: 380px;
+    width: 340px;
+    object-fit: cover;
+    border-radius: 8%;
+    border: 6px solid slateblue;
+}
+
+.symptoms .slide .card3:hover img{
+    border: solid 6px rgb(177, 175, 175);
+    transition: all 0.5s ease;
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+    outline: none !important;
+    border-radius: 20%;
+    border: 2px solid black !important
+}
+
+.owl-dot.active{
+    width: 20px;
+    border-radius: 2px
+}
+
+.owl-dot.active, .owl-dot:hover{
+    background: slateblue !important;
+    transition: all 0.6s ease;
+}
 
 
 
