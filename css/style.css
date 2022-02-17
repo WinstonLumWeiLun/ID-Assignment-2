@@ -65,7 +65,7 @@ html{
 }
 
 .navbar .logo a{ 
-    color: rgb(71, 71, 75);
+    color: rgb(0, 0, 0);
     font-size: 35px;
     font-weight: 600;
 }
@@ -77,11 +77,11 @@ html{
 }
 
 .navbar.sticky .logo a span{
-    color: slateblue; 
+    color: green; 
 }
 
 .navbar.sticky .logo a span:hover{
-    color: wheat;
+    color: crimson;
     transition: color 0.5s ease;
 }
 
@@ -91,7 +91,7 @@ html{
 }
 
 .navbar .menu li a{ 
-    color: slateblue;
+    color: rgb(77, 64, 165);
     display: block;
     font-size: 18px;
     font-weight: 500;
@@ -105,7 +105,7 @@ html{
 
 
 .navbar.sticky .menu li a{
-    color: slateblue
+    color: rgb(67, 43, 221)
 }
 
 .navbar.sticky .menu li a:hover{
@@ -232,7 +232,7 @@ section .title{
 
 .about .about-content .right .text{
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -485,10 +485,9 @@ section .title{
 
 /*-------------------------------- Footer Section -------------------------------- */
 footer{
-    background: rgb(24, 112, 228);
+    background: rgb(6, 48, 102);
     padding: 21px 35px;
     color: white;
-    font-size: 10px;
 }
 
 
