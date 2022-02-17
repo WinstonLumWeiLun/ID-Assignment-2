@@ -23,22 +23,21 @@ html{
 /*-------------------------------- Scrollbar Style -------------------------------- */
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track{
     border-radius: 10px;
-    box-shadow: inset 0 0 11px rgb(64, 115, 255);
+    box-shadow: inset 0 0 11px gray;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(30, 44, 238);
+    background-color: rgb(60, 60, 63);
     border-radius: 8px;
-
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(101, 109, 212);
+    background-color: rgb(105, 104, 104);
 }
 
 
@@ -55,7 +54,7 @@ html{
 
 .navbar.sticky{
     padding: 25px 0;
-    background: rgb(199, 197, 216);
+    background: rgb(53, 52, 56);
 }
 
 .navbar .max-width{
@@ -65,19 +64,19 @@ html{
 }
 
 .navbar .logo a{ 
-    color: rgb(0, 0, 0);
+    color: rgb(175, 174, 174);
     font-size: 35px;
     font-weight: 600;
 }
 
 
 .navbar .logo a span{ 
-    color: slateblue;
+    color: crimson;
     transition: all 0.6s ease-in-out;
 }
 
 .navbar.sticky .logo a span{
-    color: green; 
+    color: crimson; 
 }
 
 .navbar.sticky .logo a span:hover{
@@ -91,7 +90,7 @@ html{
 }
 
 .navbar .menu li a{ 
-    color: rgb(77, 64, 165);
+    color: goldenrod;
     display: block;
     font-size: 18px;
     font-weight: 500;
@@ -100,24 +99,24 @@ html{
 }
 
 .navbar .menu li a:hover{ 
-    color: black;
+    color: rgb(224, 26, 26);
 }
 
 
 .navbar.sticky .menu li a{
-    color: rgb(67, 43, 221)
+    color: goldenrod;
 }
 
 .navbar.sticky .menu li a:hover{
     transition: color 0.5s ease;
-    color: black;
+    color: rgb(224, 26, 26);
 }
 
 
 /*-------------------------------- Menu Button -------------------------------- */
 
 .menu-btn{
-    color: black;
+    color: goldenrod;
     font-size: 25px;
     cursor: pointer;
     display: none;
@@ -165,7 +164,8 @@ section .title{
 .home{
     display: flex;
     height: 100vh;
-    color: black;
+    background: url(../images/background_img/background.jpg) no-repeat center;
+    color: whitesmoke;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -178,8 +178,20 @@ section .title{
     font-size: 27px;
 }
 
+.home .home-content .text-1 span{
+    color: gold;
+    font-size: 27px;
+}
+
 .home .home-content .text-2{
-    color: black;
+    color: rgb(226, 223, 223);
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-2 span{
+    color: rgb(211, 28, 28);
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
@@ -189,24 +201,28 @@ section .title{
 
 .home .home-content a{
     display: inline-block;
-    background: slateblue;
+    background: rgb(199, 151, 29);
     color: white;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 7px;
-    border: 2px solid black;
+    border: 2px solid gold;
     transition: all 0.5s ease;
 }
 
 .home .home-content a:hover{
-    color: slateblue;
-    background: white;
+    color: rgb(20, 19, 19);
+    background: rgb(211, 28, 28);
+    border: 2px solid white;
 }
 
 
 /*-------------------------------- About Section -------------------------------- */
 
+.about{
+    background: url(../images/background_img/background2.jpg) no-repeat center;
+}
 
 .about .about-content, .skill .skill-content, .contact .contact-content{
     display: flex;
@@ -231,22 +247,23 @@ section .title{
 }
 
 .about .about-content .right .text{
-    font-size: 32px;
+    font-size: 35px;
+    color: rgb(202, 200, 200);
     font-weight: 600;
     padding-bottom: 20px;
     text-align: center;
 }
 
 .about .about-content .right .text span{
-    color: rgba(51, 139, 85, 0.993);
+    color: rgb(172, 5, 39);
 }
 
 .about .about-content .right p{
-    color: rgb(59, 59, 59);
+    color: rgb(206, 206, 206);
     font-weight: 450;
-    font-size: 19.8px;
+    font-size: 21px;
     text-align: justify;
-    padding-bottom: 20px;
+    padding-bottom: 21px;
 }
 
 
@@ -264,6 +281,9 @@ section .title{
 
 
 /*-------------------------------- Symptoms Section -------------------------------- */
+.symptoms{
+    background:url(../images/background_img/background3.jpg) no-repeat center;
+}
 
 .symptoms .title::after{
     content: "Symptoms";
@@ -329,7 +349,7 @@ section .title{
 
 .owl-dot.active{
     width: 20px;
-    border-radius: 2px
+    border-radius: 4px
 }
 
 .owl-dot.active, .owl-dot:hover{
@@ -367,8 +387,18 @@ section .title{
     margin:1.5rem;
     flex:1 1 50rem;
     border:.2rem solid black;
-    box-shadow: 0 .5rem 2rem greenyellow;
+    box-shadow: 0 .5rem 2rem gold;
     border-radius: .5rem;
+    transition: all 0.5s ease;
+}
+
+.precautions .column:hover .box-container{
+    transform: scale(1.03);
+}
+
+.precautions .column:hover .box-container{
+    border: solid 3px rgb(248, 211, 3);
+    transition: all 0.5s ease;
 }
 
 .precautions .column .box-container .title{
@@ -379,6 +409,7 @@ section .title{
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 120px;
+    transition: all 0.6s ease;
 }
 
 .precautions .column .box-container:last-child .title{
@@ -621,7 +652,7 @@ input[type="submit"]:hover{
 
 /*-------------------------------- Footer Section -------------------------------- */
 footer{
-    background: rgb(6, 48, 102);
+    background: rgb(53, 52, 56);
     padding: 21px 35px;
     color: white;
 }
@@ -713,10 +744,13 @@ footer{
     }
 
     .home .home-content .text-2{
-        color: black;
-        font-size: 60px;
+        color: rgb(226, 223, 223);
+        font-size: 39px;
     }
-    
+
+    .home .home-content .text-2 span{
+        font-size: 39px;
+    }
 
     .home .home-content a{
         font-size: 23px;
@@ -768,8 +802,12 @@ footer{
     }
 
     .home .home-content .text-2{
-        color: black;
-        font-size: 55px;
+        color: rgb(226, 223, 223);
+        font-size: 31px;
+    }
+
+    .home .home-content .text-2 span{
+        font-size: 31px;
     }
     
     .home .home-content a{
@@ -788,8 +826,12 @@ footer{
     }
 
     .home .home-content .text-2{
-        color: black;
-        font-size: 45px;
+        color: rgb(226, 223, 223);
+        font-size: 24px;
+    }
+
+    .home .home-content .text-2 span{
+        font-size: 24px;
     }
 
     .precautions .column .box-container .box{
