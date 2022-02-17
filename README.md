@@ -31,6 +31,25 @@ _____________
 
 _____________
 
+## Technologies Used
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+    - **HTML5** was used for structuring and presenting the main contents of the website.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - **CSS** was used for customizing and styling of the HTML on the website. 
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - **JavaScript** was used to integrate dynamic behaviors and special effects, such as allowing the users to have interactions on the website. It is also used for validation purposes.
+- [API](https://www.mulesoft.com/resources/api/what-is-an-api)
+    - **API** was used to allow the website to have access to relevant datas from other server/websites.
+- [Font Awesome](https://fontawesome.com/)
+    - **Font Awesome** was used to simplify the process of applying icons into the website.
+- [Google Fonts](https://fonts.google.com/)
+    - **Google Fonts** was used to apply various different font styles into the website.
+- [cdnjs](https://cdnjs.com/)
+    - **cdnjs** was used to aid the implementation of javascript features into the website.
+- [JQuery](https://jquery.com/)
+    - **JQuery** was used to simplify DOM manipulation for the website.
+
+
 ## Testing
 i. It can access to Contact Page. 
 
