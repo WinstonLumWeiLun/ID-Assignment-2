@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 // Typing Animation
    let type = new Typed(".type1", {
-    strings: ["Protect Yourself From COVID-19"],
+    strings: ["From COVID-19"],
     typeSpeed: 70,
     backSpeed: 50,
     loop: true
