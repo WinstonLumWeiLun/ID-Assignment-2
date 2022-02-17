@@ -66,12 +66,14 @@ _____________
 ## Testing
 i. It can access to Contact Page. 
 
-ii. Try to submit the empty form and verify that an error message about the required fields appears (There is no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
+ii. Try to submit the empty form and verify that an error message about the required fields appears 
+(There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
 
-iii. Try to submit the form with an invalid email address and verify that a relevant error message appears (There is no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
+iii. Try to submit the form with an invalid email address and verify that a relevant error message appears 
+(There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
 
 iv. Try to submit the form with all inputs valid and verify that a success message appears. (working)
 
-Screen-Size: Currently still working on it.
+Screen-Size: Able to work for Responsive Media
 
 _____________
