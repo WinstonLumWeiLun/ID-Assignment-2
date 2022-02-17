@@ -24,7 +24,7 @@ While we were brainstorming ideas for our website, we tried to look from the per
 - As a user, I would want to know about the main purpose of what this website is mainly for.
 - As a user, I would like to briefly learn the common symptoms of Covid-19.
 - As a user, I would like to see the live data regarding the confirmed cases of Covid-19 from all around the world.
-- As a user, I would like the contents/information on the website to be intelligible with little or no difficulty in reading.
+- As a user, I would like the contents on the website to be intelligible with little to no difficulty in reading.
 - As a user, I would like the website to be compatible for all devices. (e.g Mobile-Friendly).
 - As a user, I would want to navigate around the website with ease.
 - As a user, I would like to know what are the ways to prevent Covid-19 from spreading.
@@ -35,9 +35,11 @@ _____________
 ## Features
 - Typing Animation - In a typing back and forth animated manner, shows the individuals / people of the text "Protect yourself against Covid-19." 
 
+- Navigation Menu - Allows users to have a simple, fast and smooth yet convenient navigation to their desired section of the website.
+
 - Highlighted Contents - Certain contents from the website will be highlighted with a distinct color when individuals / people hover over/point-click on them.
 
-- Expanded Contents - A expand/scale-up animation will appear when users/recruiters hover over/point-click on specified contents from the website. 
+- Scaled/Expanded Contents - A expand/scale-up animation will appear when users/recruiters hover over/point-click on specified contents from the website. 
 
 _____________
 
@@ -59,6 +61,7 @@ _____________
 - [JQuery](https://jquery.com/)
     - **JQuery** was used to simplify DOM manipulation for the website.
 
+_____________
 
 ## Testing
 i. It can access to Contact Page. 
