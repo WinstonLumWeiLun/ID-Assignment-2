@@ -14,11 +14,21 @@ The Main Goal of this website is to allow people to stay updated on the newest a
 _____________
 
 ## Design Process
-We chose Covid-19 as our project theme to show how serious the Covid-19 is. Many people do not care about how about dangerous it was after everyone took the booster shot. However, the number of cases relating to the Covid-19's infections and deaths continues to rise. As a result, our first aim is to inform and show our users about the dangers and risks of the Covid-19 Virus and also together with the ways that they can do to protect themselves from this deadly virus. 
+For our ID Assignment 2, we have decided to go with **"Covid-19"** as our Project Theme. The reason behind our decision, was due to the fact that Covid-19 have been a deadly virus consistently praying on our world for 2 years straight, and there is still no signs of it stopping yet. Many people in the world have began to not care about how dangerous the Covid-19 can be after taking the Booster Vaccination Shot. However, the number of cases relating to the Covid-19's infections and deaths continues to rise as of today's date. 
 
-People can get the most up-to-date information on the confirmed cases around the world everyday, and they can compare cases from day one to now to see how quickly Covid-19 spreads and are affecting people.
+Therefore, our Main Objective for this assignment, is to design an Interactive Website that shows and informs our users about the dangers and risks of the Covid-19 Virus and also together with the ways which they can do to protect themselves from this deadly and pesky virus. People will also be able to receive the most up-to-date information on the confirmed cases from around the world daily, whereby they can compare the amount of cases from their desired choice of any date and time to another. Lastly, they can also learn and gain new knowledge on what kind of symptoms they might have if they do suspect that they've been infected with the Covid-19 Virus, as well as what precautions and what steps to take right away to prevent the infection from spreading.
 
-They may know what symptoms they have if they suspect they've been infected, as well as what precautions to take and what steps to take right away to prevent the infection from spreading.
+While we were brainstorming ideas for our website, we tried to look from the perspective of the users who are using our website. such as:
+
+**User Stories**
+- As a user, I would want to know about the main purpose of what this website is mainly for.
+- As a user, I would like to briefly learn the common symptoms of Covid-19.
+- As a user, I would like to see the live data regarding the confirmed cases of Covid-19 from all around the world.
+- As a user, I would like the contents/information on the website to be intelligible with little or no difficulty in reading.
+- As a user, I would like the website to be compatible for all devices. (e.g Mobile-Friendly).
+- As a user, I would want to navigate around the website with ease.
+- As a user, I would like to know what are the ways to prevent Covid-19 from spreading.
+- As a user, I would like to have a quick comparison on the amount of confirmed cases of Covid-19 from a respective date and another respective date.
 
 _____________
 
