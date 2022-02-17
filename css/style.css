@@ -466,20 +466,156 @@ section .title{
 
 
 
-/*contact.html*/
-/*------------------------------------*/
+/*-------------------------------- Contact Section -------------------------------- */
 
-.container h1{      /* Please use this form to get in touch with us.  */
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+.contact .title{
+    color: rgb(83, 83, 158);
+}
+
+.contact .title span{
+    color: rgb(127, 127, 133);
+}
+
+.contact .contact-content .left .text span{
+    color: rgb(83, 83, 158);
+}
+
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text{
+    font-size: 22px;
+    font-weight: 550;
+    margin-bottom: 20px;
 }
 
 
-.form-control {     /* All the TextBox */
-    height: 40px;
-    width: 900px;
-    box-shadow: 0 2px 4px red;
+.contact .contact-content .left p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.contact .contact-content .left .icon{
+    margin: 50px 0;
+}
+
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info{
+    margin-left: 25px;
+}
+
+.contact .contact-content .row i{
+    font-size: 27px;
+    color: rgb(155, 6, 6);
+}
+
+.contact .contact-content .info .head{
+    color:rgb(146, 7, 7);
+    font-size: 17px;
+    font-weight: 610;
+}
+
+.contact .contact-content .info .sub{
+    font-weight: 430;
+    color: #333;
+}
+
+.contact .contact-content .school-map{
+    height:100%;
+    width:100%;
+}
+
+
+form {
+    max-width: 700px;
+    width: 100%;
+    background: rgb(247, 240, 240);
+    margin: 4vh auto 0 auto;
+    padding: 60px;
+    border: 2px solid rgb(83, 83, 158);
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    margin-bottom: 20px;
+}
+
+form:hover{
+    background: rgb(235, 212, 212);
+    transition: all 0.5s ease;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    font-size: 17px;
+    color: rgb(83, 83, 158);
+    font-weight: 610;
+    display: block;
+    margin: 16px 2px;
+    
+}
+
+::placeholder {
+    color: rgb(8, 8, 8);
+    opacity: 35%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 4px solid rgb(85, 84, 84);
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-bottom: 2px solid rgb(197, 18, 18);
+    transition: all 0.5s ease;
+}
+
+textarea::-webkit-scrollbar {
+    width: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: slateblue;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+input[type="submit"] {
+    font-weight: 500;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 740px;
+    background: rgb(83, 83, 158);
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 3px solid crimson;
+    transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover{
+    color: black;
+    background: slateblue;
+    transition: all 0.5s ease;
+    
 }
 
 
@@ -616,6 +752,11 @@ footer{
     }
 
     .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact .contact-content iframe{
         width: 100%;
         margin-bottom: 30px;
     }
