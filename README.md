@@ -122,8 +122,10 @@ _____________
 _____________
 
 ## Deployment
-- The [Link](https://winstonlumweilun.github.io/ID-Assignment-2/index.html) to our GitHub Page.
-- The [Link](https://drive.google.com/file/d/1TU1P5QW4ib4B3sruIGZEa_l1S_tYVHTa/view?usp=sharing) to our Video Walkthrough on Google Drive.
+- The [Link](https://github.com/WinstonLumWeiLun/ID-Assignment-2.git) to our Github **Repository**.
+- The [Link](https://winstonlumweilun.github.io/ID-Assignment-2/index.html) to our GitHub **Page**.
+- The [Link](https://drive.google.com/file/d/1TU1P5QW4ib4B3sruIGZEa_l1S_tYVHTa/view?usp=sharing) to our **Video Walkthrough** on Google Drive.
+
 _____________
 
 ## Team Contribution
