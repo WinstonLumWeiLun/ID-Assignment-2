@@ -108,6 +108,6 @@ _____________
 ## Credits
 **Media**
 - All of the **background** images used in our website were obtained from [Wallpaper Abyss](https://wall.alphacoders.com/).
-- All of the remaining images(panda etc.) were obtained from [Shutterstock](https://www.shutterstock.com/), [Vecteezy](https://www.vecteezy.com/), & [dreamstime](https://www.dreamstime.com/)
+- All of the remaining images(panda etc.) were obtained from [Shutterstock](https://www.shutterstock.com/), [Vecteezy](https://www.vecteezy.com/), [dreamstime](https://www.dreamstime.com/)
 
 _____________
