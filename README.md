@@ -93,7 +93,7 @@ _____________
     - Try to submit the empty form and verify that an error message about the required fields appears. (There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
     - Try to submit the empty form and verify that an error message about the required fields appears. (There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
     - Try to submit the form with an invalid email address and verify that a relevant error message appears. (There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
-- Try to submit the form with all inputs valid and verify that a success message appears. (working)
+    - Try to submit the form with all inputs valid and verify that a success message appears. (working)
 
 2. Quiz/Game:
     - Navigate to the "Quiz" Page successfully
@@ -104,7 +104,7 @@ _____________
     - Try to run the quiz/game and verify that at the end of it, I can enter my name and submit.
     - Try to run the quiz/game and verify that at the end of it, my high-score together with my name is recorded and saved into the "HighScore" Page.
     - Try to run the quiz/game and verify that at the end of it, I can check the High-Scores of mine and other users at the "HighScore" Page.
-    - 
+
 **Website's Status**
 The website's main foundation, together with it's styles are all implemented successfully. So far, the website runs smoothly without any major problems. This can be said the same for how the website is working positively on multiple different screen sizes from both desktop and mobile.
 
