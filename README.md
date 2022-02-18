@@ -98,6 +98,7 @@ iii. Try to submit the form with an invalid email address and verify that a rele
 
 iv. Try to submit the form with all inputs valid and verify that a success message appears. (working)
 
+**Website's Status**
 The website's main foundation, together with it's styles are all implemented successfully. So far, the website runs smoothly without any major problems. This can be said the same for how the website is working positively on multiple different screen sizes from both desktop and mobile.
 
 **Website's Known Bugs/Problem**
