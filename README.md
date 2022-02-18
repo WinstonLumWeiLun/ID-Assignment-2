@@ -123,3 +123,10 @@ _____________
 
 ## Deployment
 - The [Link](https://winstonlumweilun.github.io/ID-Assignment-2/index.html) to our GitHub Page.
+
+_____________
+
+## Team Contribution
+1. Chua Cheng Xuan
+    - Helped to finished up on the Symptoms and Precautious, together with aiding Winston with the other pages such as Home Page and Quiz Page. Also helped to fill in the remaining parts of the Quiz Page(such as the end of the quiz whereby users can know their total points they score together, and the prompting of their names. Followed by the showing of highscores in the "High Scores" Page). Helped to attempt on the styling for most of the pages via CSS and also the adding of majority contents to the Readme.md file.
+
