@@ -91,10 +91,10 @@ _____________
 **Website's Status**
 1. Contact Form:
     - Navigate to the "Contact" Page successfully
-    - Try to submit the empty form and verify that an error message about the required fields appears. (There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
-    - Try to submit the empty form and verify that an error message about the required fields appears. (There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
-    - Try to submit the form with an invalid email address and verify that a relevant error message appears. (There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
-    - Try to submit the form with all inputs valid and verify that a success message appears. (working)
+    - Try to submit the empty form and verify that an error message about the required fields appears. (There will be no Error Message displaying out. Have to refresh the page and fill in the correct required fields.)
+    - Try to submit the empty form and verify that an error message about the required fields appears. (There will be no Error Message displaying out. Have to refresh the page and fill in the correct required fields.)
+    - Try to submit the form with an invalid email address and verify that a relevant error message appears. (There will be no Error Message displaying out. Have to refresh the page and fill in the correct required fields.)
+    - Try to submit the form with all inputs valid and verify that a success message appears.
 
 2. Quiz/Game:
     - Navigate to the "Quiz" Page successfully
@@ -102,7 +102,8 @@ _____________
     - Try to run the quiz/game and verify that I can answer all of the questions.
     - Try to run the quiz/game and verify that the points system is working appropriately depending on whether I am answering the questions correctly or wrongly.
     - Try to run the quiz/game and verify that at the end of it, the total amount of points is calculated correctly based on the amount of questions I have answered correctly.
-    - Try to run the quiz/game and verify that at the end of it, I can enter my name and submit.
+    - Try to run the quiz/game and verify that at the end of it, I can enter my name and submit to record the high score.
+    - Try to run the quiz/game and verify that at the end of it, you cannot submit and your points will not be recorded if you did not fill in any name.
     - Try to run the quiz/game and verify that at the end of it, my high-score together with my name is recorded and saved into the "HighScore" Page.
     - Try to run the quiz/game and verify that at the end of it, I can check the High-Scores of mine and other users at the "HighScore" Page.
 
@@ -119,3 +120,6 @@ _____________
 - All of the remaining images(panda etc.) were obtained from [Shutterstock](https://www.shutterstock.com/), [Vecteezy](https://www.vecteezy.com/), [dreamstime](https://www.dreamstime.com/)
 
 _____________
+
+## Deployment
+- The [Link](https://winstonlumweilun.github.io/ID-Assignment-2/index.html) to our GitHub Page.
