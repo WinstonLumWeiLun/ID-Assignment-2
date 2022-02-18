@@ -92,7 +92,7 @@ html{
 .navbar .menu li a{ 
     color: goldenrod;
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     margin-left: 26px;
     transition: color 0.5s ease;
@@ -116,7 +116,7 @@ html{
 /*-------------------------------- Menu Button -------------------------------- */
 
 .menu-btn{
-    color: whitesmoke;
+    color: ghostwhite;
     font-size: 25px;
     cursor: pointer;
     display: none;
@@ -128,7 +128,7 @@ html{
 }
 
 .navbar.sticky .menu-btn{
-    color: black;
+    color: grey;
 }
 
 .navbar.sticky .menu-btn:hover{
@@ -221,7 +221,7 @@ section .title{
 /*-------------------------------- About Section -------------------------------- */
 
 .about{
-    background: url(../images/background_img/background2.jpg) no-repeat center;
+    background: url(../images/background_img/background2.png) no-repeat center;
 }
 
 .about .about-content, .skill .skill-content, .contact .contact-content{
@@ -255,13 +255,13 @@ section .title{
 }
 
 .about .about-content .right .text span{
-    color: rgb(172, 5, 39);
+    color: goldenrod;
 }
 
 .about .about-content .right p{
     color: rgb(206, 206, 206);
     font-weight: 450;
-    font-size: 21px;
+    font-size: 22px;
     text-align: justify;
     padding-bottom: 21px;
 }
@@ -282,7 +282,7 @@ section .title{
 
 /*-------------------------------- Symptoms Section -------------------------------- */
 .symptoms{
-    background:url(../images/background_img/background3.jpg) no-repeat center;
+    background:url(../images/background_img/background3.jpg);
 }
 
 .symptoms .title{
@@ -369,11 +369,17 @@ section .title{
 
 /*precautions.html*/ 
 /*------------------------------------*/
+.precautions{
+    background: url(../images/background_img/background4.jpg);
+}
+
 
 .precautions h1{
     color: blue;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    text-shadow: 3px 4px #dddddd;
+    font-size: 45px;
 }
 
 .precautions span{
@@ -390,18 +396,18 @@ section .title{
 .precautions .column .box-container{
     margin:1.5rem;
     flex:1 1 50rem;
-    border:.2rem solid black;
-    box-shadow: 0 .5rem 2rem gold;
+    border:.2rem solid whitesmoke;
+    box-shadow: 0 .5rem 2rem white;
     border-radius: .5rem;
     transition: all 0.5s ease;
 }
 
 .precautions .column:hover .box-container{
-    transform: scale(1.03);
+    transform: scale(1.01);
 }
 
 .precautions .column:hover .box-container{
-    border: solid 3px rgb(248, 211, 3);
+    border: solid 3px black;
     transition: all 0.5s ease;
 }
 
@@ -413,7 +419,7 @@ section .title{
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 120px;
-    transition: all 0.6s ease;
+    text-shadow: 6px 2px black;
 }
 
 .precautions .column .box-container:last-child .title{
@@ -436,21 +442,32 @@ section .title{
 
 .precautions .column .box-container .box h3{
     font-size: 30px;
-    color: rgb(233, 113, 113);
+    color: rgb(201, 199, 199);
     padding-bottom: 20px;
+    text-decoration: underline;
+    font-weight: bold;
 
 }
 
 .precautions .column .box-container .box p{
     font-size: 20px;
     text-align: justify;
+    color: white;
 }
 
 
 /*-------------------------------- Prevent Section -------------------------------- */
 
+.prevent{
+    background: linear-gradient(-45deg, #696969, #9b7c7c, #3a3a3a, #ffe6e6);
+}
+
+.prevent .title{
+    color: ghostwhite;
+}
+
 .prevent .title span{
-    color: rgb(238, 48, 95);
+    color: rgb(245, 41, 82);
 }
 
 .prevent .box2 img{
@@ -459,7 +476,7 @@ section .title{
 }
 
 .prevent .prevent-content .card2 .text{
-    color: red;
+    color: ghostwhite;
     text-decoration: underline;
     font-size: 30px;
     font-weight: 500;
@@ -469,12 +486,12 @@ section .title{
 
 .prevent .prevent-content .box2 p{
     font-size: 24px;
-    color: black;
+    color: rgb(253, 232, 232);
     text-align: center;
 }
 
 .prevent .prevent-content .box2:hover p{
-    color:black;
+    color:rgb(255, 212, 212);
     transition: color 0.5s ease;
 }
 
@@ -487,7 +504,13 @@ section .title{
     border-style: solid;
     margin: auto;
     margin-bottom: 20px;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+}
 
+.prevent .prevent-content .card2:hover{
+    border: solid 3px goldenrod;
+    transform: scale(1.05);
 }
 
 .prevent .prevent-content .card2 .box2{
@@ -503,16 +526,20 @@ section .title{
 
 /*-------------------------------- Contact Section -------------------------------- */
 
+.contact{
+    background: linear-gradient(-45deg, #e6e4e3, #b4b2b2, #b1aaaa, #939682);
+    height: 100%;
+}
 .contact .title{
-    color: rgb(83, 83, 158);
+    color: crimson;
 }
 
 .contact .title span{
-    color: rgb(127, 127, 133);
+    color: whitesmoke;
 }
 
 .contact .contact-content .left .text span{
-    color: rgb(83, 83, 158);
+    color: ghostwhite;
 }
 
 .contact .contact-content .column{
@@ -527,7 +554,7 @@ section .title{
 
 
 .contact .contact-content .left p{
-    font-size: 17px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -547,11 +574,11 @@ section .title{
 
 .contact .contact-content .row i{
     font-size: 27px;
-    color: rgb(155, 6, 6);
+    color: ghostwhite;
 }
 
 .contact .contact-content .info .head{
-    color:rgb(146, 7, 7);
+    color:black;
     font-size: 17px;
     font-weight: 610;
 }
@@ -656,7 +683,7 @@ input[type="submit"]:hover{
 
 /*-------------------------------- Footer Section -------------------------------- */
 footer{
-    background: rgb(53, 52, 56);
+    background: linear-gradient(-45deg, #ffffff, #949494, #464646, #000000);
     padding: 21px 35px;
     color: white;
 }
