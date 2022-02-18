@@ -130,3 +130,8 @@ _____________
 1. Chua Cheng Xuan
     - Helped to finished up on the Symptoms and Precautious, together with aiding Winston with the other pages such as Home Page and Quiz Page. Also helped to fill in the remaining parts of the Quiz Page(such as the end of the quiz whereby users can know their total points they score together, and the prompting of their names. Followed by the showing of highscores in the "High Scores" Page). Helped to attempt on the styling for most of the pages via CSS and also the adding of majority contents to the Readme.md file.
 
+
+
+2. Winston Lum Wei Lun
+    - I have did the Home and About Page. Ater finishing these two pages, I moved on to the Prevent Page and the Contact Page, where I implemented API and Lottie Animation methods. Following that, I did the Quiz Page, which included the design of the Quiz Page as well as the thought process behind the questions that users must answer for this quiz game,  and the part where they will determine whether you answered correctly or not. I used CSS to style the majority of the pages, as well as adding the contents to the Readme.md file. 
+
