@@ -9,7 +9,7 @@
 _____________
 
 # Theme 3: Covid-19
-The Main Goal of this website is to allow people to stay updated on the newest and latest Covid-19's news and confirmed-cases daily, as well as teaching people on how to prevent the virus from spreading.
+To start off, my team have decided to design our website's overall color theme (including font colors) with multiple variations in colors such as white, red, gold and semi-black. This allows our website to be much more visually appealing instead of being plain and boring to our users, which aids us in attracting more users to visit our website. My team have also implemented custom styles to the scroll-bar on our website, so as to make it unique and fresh instead of using the provided default scroll-bar. From the "Home Page", it consists of the main title of the website, which is also the theme that we have chosen for this assignment project, "Covid-19". There is also a navigation menu which aids the users to navigate through our website with convenience. Not only that, but the navigation menu's display will also adapt to suit mobile users, making it an overall user-friendly websites for our users.The final highlights of the "Home" Page would be the typing back and forth animated text which loops continously to display the main topic of our website to our users. 
 
 _____________
 
@@ -29,7 +29,7 @@ While we were brainstorming ideas for our website, we tried to look from the per
 - As a user, I would want to navigate around the website with ease.
 - As a user, I would like to know what are the ways to prevent Covid-19 from spreading.
 - As a user, I would like to have a quick comparison on the amount of confirmed cases of Covid-19 from a respective date and another respective date.
-
+- As a user, I would want to know whether the information that I have filled up from the contact form, is successfully send and recorded to the owner of the website.
 _____________
 
 ## Features
