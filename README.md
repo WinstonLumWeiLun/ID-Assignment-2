@@ -33,14 +33,33 @@ While we were brainstorming ideas for our website, we tried to look from the per
 _____________
 
 ## Features
-- Typing Animation - In a typing back and forth animated manner, shows the individuals / people of the text "Protect yourself against Covid-19." 
+**Current Working Features**
+- Typing Animation - In a typing back and forth animated manner, shows the individuals / people of the text "From Covid-19." 
+
+- Customized Scroll-Bar - The scroll-bar from the website have been modified to suit the website's overall theme.
 
 - Navigation Menu - Allows users to have a simple, fast and smooth yet convenient navigation to their desired section of the website.
+
+- Mobile-Friendly Navigation Menu - An optimized Navigation Menu that has the same function as the one mentioned above, mainly for mobile users.
+
+- Learn More-Button (Home Page) - It is a responsive button that navigates users to the "About" page of the website immediately.
+
+- Sliding-Function Contents (Symptoms Page) - Users will be able to glance through the contents from the "Symptoms" page by sliding either left or right on their desktops or mobile phones with ease. 
 
 - Highlighted Contents - Certain contents from the website will be highlighted with a distinct color when individuals / people hover over/point-click on them.
 
 - Scaled/Expanded Contents - A expand/scale-up animation will appear when users/recruiters hover over/point-click on specified contents from the website. 
 
+- Live Data (About Page) - Displays the live data of confirmed cased related to Covid-19 globally, which users can choose their desired choice of country to check the respective confirmed cases.
+
+- RestDB Database (Contact-Me Page) - When users fills up and submit the contact form successfully, their respective details that they have entered will be recorded and saved in the database shown below the contact form. Users can also update or delete their details recorded in the database.
+
+- Quiz/Game (Quiz Page) - Gives users the opportunity to participate in a short multiple-choice-questions quiz that tests their knowledge about Covid-19, whereby the question's answers can be referred from our website. 
+
+- Live Highscore Board (End of the Quiz) - After attempting our quiz/game, users will be able to see how much points/scores they have scored from it. After that, they will be prompted to enter their name, which will be recorded and saved in the "High Scores" page with their respective points/scores they get. Users will also be able to check their high-scores together with other users' high-scores to compete who has the higher-score.
+
+**Features Left to Implement**
+- None.
 _____________
 
 ## Technologies Used
@@ -56,6 +75,8 @@ _____________
     - **Font Awesome** was used to simplify the process of applying icons into the website.
 - [Google Fonts](https://fonts.google.com/)
     - **Google Fonts** was used to apply various different font styles into the website.
+- [LottieFiles](https://lottiefiles.com/)
+-   - **LottieFiles** was used to apply animated effects/logos with ease into the website.
 - [cdnjs](https://cdnjs.com/)
     - **cdnjs** was used to aid the implementation of javascript features into the website.
 - [JQuery](https://jquery.com/)
