@@ -116,10 +116,11 @@ html{
 /*-------------------------------- Menu Button -------------------------------- */
 
 .menu-btn{
-    color: ghostwhite;
+    color: goldenrod;
     font-size: 25px;
     cursor: pointer;
     display: none;
+    transition: all 0.5s ease;
 }
 
 .menu-btn:hover{
@@ -128,7 +129,8 @@ html{
 }
 
 .navbar.sticky .menu-btn{
-    color: grey;
+    color: rgb(75, 73, 73);
+    transition: all 0.5s ease;
 }
 
 .navbar.sticky .menu-btn:hover{
@@ -685,6 +687,7 @@ input[type="submit"]:hover{
 footer{
     background: linear-gradient(-45deg, #ffffff, #949494, #464646, #000000);
     padding: 21px 35px;
+    text-align: center;
     color: white;
 }
 
