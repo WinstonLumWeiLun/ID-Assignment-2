@@ -13,7 +13,7 @@ To start off, my team have decided to design our website's overall color theme (
 
 Next, we have the "About" Page that gives a brief introduction to our users about the Covid-19 Virus. Below the introduction, there is a live program that displays the various data of confirmed cases regarding Covid-19 from all around the world. Users will be able to interact with it, such as choosing/filtering their desired choice of country and also the specific date to determine the amount of confirmed cases. The next page would be the "Symptoms" Page, which allows the users to know about the common symptoms of the Covid-19 Virus. This page involves the use of smooth sliding feature, which users can interact with to see the different common symptoms of the Covid-19 Virus. Moving on, we have the "Precautious" Page that displays the neccessary precautions steps to take against the Covid-19 Virus, such as showing the DO's and DONT's. In this page, when users hover over the contents, there will be a highlighted and scale up animation on it to give the users attention and an easier reading experience of the contents. Moving on, The next page would be the "Prevent" Page. As the name suggest, this page shows the most important and common preventive ways for our users to note in order to avoid Covid-19 from spreading to them. This page also uses the scale up animation when our users hover over the contents, so as to allow them to have an easier and better reading experience, just like the previous page "Precautious".
 
-The last second page would be the "Contact" Page, which allows users to fill up a simple interactive contact form to get in touch with us quickly. As our users successfully submitted the contact form, they will be able to determine whether their details have been send to us, just by checking below the contact form which displays the live database of the details entered from the contact form by our users. Lastly, the last page of our website would be the "Quiz" Page. The "Quiz" Page is created to give our users the opportunity to participate in a short multiple-choice-question that tests them on what they have learn from our website. After attempting the quiz, the page will display the respective points that they have scored to the users. After that, they will then be prompted to enter their name, whereby their respective score together with their name, would be recorded and saved in another page (access via the "High Scores" button). Users can view their respective high-scores and also other users' high-scores.
+The last second page would be the "Contact" Page, which allows users to fill up a simple interactive contact form to get in touch with us quickly. As our users submit the contact form successfully, they will be able to determine whether their details have been send to us, just by checking below the contact form which displays the live database of the details entered from the contact form by our users. Lastly, the last page of our website would be the "Quiz" Page. The "Quiz" Page is created to give our users the opportunity to participate in a short multiple-choice-question that tests them on what they have learn from our website. After attempting the quiz, the page will display the respective points that they have scored to the users. After that, they will then be prompted to enter their name, whereby their respective score together with their name, would be recorded and saved in another page (access via the "High Scores" button). Users can view their respective high-scores and also other users' high-scores.
 _____________
 
 ## Design Process
@@ -59,7 +59,7 @@ _____________
 
 - Quiz/Game (Quiz Page) - Gives users the opportunity to participate in a short multiple-choice-questions quiz that tests their knowledge about Covid-19, whereby the question's answers can be referred from our website. 
 
-- Live Highscore Board (End of the Quiz) - After attempting our quiz/game, users will be able to see how much points/scores they have scored from it. After that, they will be prompted to enter their name, which will be recorded and saved in the "High Scores" page with their respective points/scores they get. Users will also be able to check their high-scores together with other users' high-scores to compete who has the higher-score.
+- Highscore Board (End of the Quiz) - After attempting our quiz/game, users will be able to see how much points/scores they have scored from it. After that, they will be prompted to enter their name, which will be recorded and saved in the "High Scores" page with their respective points/scores they get. Users will also be able to check their high-scores together with other users' high-scores to compete who has the higher-score.
 
 **Features Left to Implement**
 - None.
@@ -98,6 +98,16 @@ iii. Try to submit the form with an invalid email address and verify that a rele
 
 iv. Try to submit the form with all inputs valid and verify that a success message appears. (working)
 
-Screen-Size: Able to work for Responsive Media
+The website's main foundation, together with it's styles are all implemented successfully. So far, the website runs smoothly without any major problems. This can be said the same for how the website is working positively on multiple different screen sizes from both desktop and mobile.
+
+**Website's Known Bugs/Problem**
+- The icons that are implemented into the website using [Font Awesome](https://fontawesome.com/) might disappear sometimes. However, making a refresh on the website will solve this problem.
+
+_____________
+
+## Credits
+**Media**
+- All of the **background** images used in our website were obtained from [Wallpaper Abyss](https://wall.alphacoders.com/).
+- All of the remaining images(panda etc.) were obtained from [Shutterstock](https://www.shutterstock.com/), [Vecteezy](https://www.vecteezy.com/), & [dreamstime](https://www.dreamstime.com/)
 
 _____________
