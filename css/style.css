@@ -54,7 +54,7 @@ html{
 
 .navbar.sticky{
     padding: 25px 0;
-    background: rgb(53, 52, 56);
+    background: linear-gradient(-45deg, #8d8c8c, #858080, #464646, #000000);
 }
 
 .navbar .max-width{
@@ -64,7 +64,7 @@ html{
 }
 
 .navbar .logo a{ 
-    color: rgb(175, 174, 174);
+    color: rgb(140, 140, 148);
     font-size: 35px;
     font-weight: 600;
 }
@@ -104,7 +104,7 @@ html{
 
 
 .navbar.sticky .menu li a{
-    color: goldenrod;
+    color: ghostwhite;
 }
 
 .navbar.sticky .menu li a:hover{
