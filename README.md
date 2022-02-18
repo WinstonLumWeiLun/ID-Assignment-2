@@ -88,6 +88,7 @@ _____________
 _____________
 
 ## Testing
+**Website's Status**
 1. Contact Form:
     - Navigate to the "Contact" Page successfully
     - Try to submit the empty form and verify that an error message about the required fields appears. (There will be no Error Message displaying out, still working on it. Have to refresh the page and fill in the correct required fields.)
@@ -105,7 +106,6 @@ _____________
     - Try to run the quiz/game and verify that at the end of it, my high-score together with my name is recorded and saved into the "HighScore" Page.
     - Try to run the quiz/game and verify that at the end of it, I can check the High-Scores of mine and other users at the "HighScore" Page.
 
-**Website's Status**
 The website's main foundation, together with it's styles are all implemented successfully. So far, the website runs smoothly without any major problems. This can be said the same for how the website is working positively on multiple different screen sizes from both desktop and mobile.
 
 **Website's Known Bugs/Problem**
