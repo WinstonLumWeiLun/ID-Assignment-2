@@ -30,6 +30,6 @@ saveHighScore = e => {
     highScores.splice(5)
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('../html/quiz.html')
+    window.location.assign('quiz.html')
 
 }
